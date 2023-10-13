@@ -1,3 +1,27 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-scopes = "write_products"
+name = "app_1012"
+client_id = "7f348053d5f50dd2cc5951083507c3dd"
+application_url = "https://baskets-monday-computers-defence.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products,write_products"
+
+[auth]
+redirect_urls = [
+  "https://baskets-monday-computers-defence.trycloudflare.com/auth/callback",
+  "https://baskets-monday-computers-defence.trycloudflare.com/auth/shopify/callback",
+  "https://baskets-monday-computers-defence.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "shopbytest.myshopify.com"
