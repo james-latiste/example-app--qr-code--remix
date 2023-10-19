@@ -2,7 +2,7 @@
 
 name = "app_1012"
 client_id = "7f348053d5f50dd2cc5951083507c3dd"
-application_url = "https://baskets-monday-computers-defence.trycloudflare.com"
+application_url = "https://ultram-harder-incomplete-civil.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "read_products,write_products"
 
 [auth]
 redirect_urls = [
-  "https://baskets-monday-computers-defence.trycloudflare.com/auth/callback",
-  "https://baskets-monday-computers-defence.trycloudflare.com/auth/shopify/callback",
-  "https://baskets-monday-computers-defence.trycloudflare.com/api/auth/callback"
+  "https://ultram-harder-incomplete-civil.trycloudflare.com/auth/callback",
+  "https://ultram-harder-incomplete-civil.trycloudflare.com/auth/shopify/callback",
+  "https://ultram-harder-incomplete-civil.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
